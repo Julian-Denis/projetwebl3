@@ -12,8 +12,8 @@ function switchView() {
         document.getElementById("nat").style.display = "block";
     }
     if($('#option2').prop('checked')) {
-        document.getElementById("ut1").style.display = "block";
         document.getElementById("nat").style.display = "none";
+        document.getElementById("ut1").style.display = "block";
     }
 
 }

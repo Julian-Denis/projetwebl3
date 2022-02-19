@@ -30,4 +30,10 @@ h3 {
     font-size: large;
 }
 
+.compare {
+    width: 50%;
+    border: medium black;
+    align-self: center;
+}
+
 

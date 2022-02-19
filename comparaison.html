@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <!-- Ajout des librairies d3.js, bootstrap et google icons -->
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+        <title>Tableau de bord - Acceuil</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Tableau de bord</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link "  href="index.html">Emplois</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="salaire.html">Salaire</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="comparaison.html">Comparaison</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-7 justify-content-center">
+                    <table class="table compare">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>UT1</th>
+                                <th>National</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>taux d'insertion</td>
+                                <td>94,6</td>
+                                <td>88,4</td>
+                            </tr>
+                            <tr>
+                                <td>taux d'emplois stables</td>
+                                <td>85,3</td>
+                                <td>68,4</td>
+                            </tr>
+                            <tr>
+                                <td>Salaire annuel </td>
+                                <td>33 891,67 €</td>
+                                <td>30 288,97 €</td>
+                            </tr>
+                            <tr>
+                                <td>Salaire mensuel</td>
+                                <td>2 173,33 €</td>
+                                <td>1 942,24 €</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/graph4.PNG" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                    <img src="images/graph5.PNG" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
