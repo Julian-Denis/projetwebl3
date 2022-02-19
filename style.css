@@ -1,0 +1,33 @@
+body {
+    background-color: #f7f7f7;
+}
+h1 {
+    color: #0a2463;
+    font-weight: 600;
+}
+
+h2 {
+    color: #3e92cc;
+    font-weight: 500;
+}
+
+h3 {
+    color : #71a4ad;
+    font-weight: 450;
+}
+
+.number {
+    color : #3b6bed;
+    font-size: xx-large;
+}
+
+.col-md-4 {
+    font-size: large !important;
+}
+
+.dataName {
+    display: inline;
+    font-size: large;
+}
+
+
